@@ -30,3 +30,17 @@ def ensure_repo(repo_dir: Path | None = None) -> Path:
 
     print(f"Cloned to {repo_dir}\n")
     return repo_dir
+
+
+# Alias for backward compatibility with batch_collect.py
+def ensure_ms_swift_repo(parent_dir: str | Path = "/workspace") -> Path:
+    """Ensure ms-swift repo exists at parent_dir/ms-swift.
+
+    Args:
+        parent_dir: Parent directory where ms-swift will be cloned
+
+    Returns:
+        Path to ms-swift directory
+    """
+    repo_path = Path(parent_dir) / "ms-swift"
+    return ensure_repo(repo_path)

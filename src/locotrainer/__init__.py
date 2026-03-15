@@ -5,5 +5,6 @@ __version__ = "0.1.1"
 from .agent import Agent
 from .config import Config
 from .tools import ToolExecutor
+from .repo import ensure_ms_swift_repo, ensure_repo
 
-__all__ = ["Agent", "Config", "ToolExecutor", "__version__"]
+__all__ = ["Agent", "Config", "ToolExecutor", "ensure_ms_swift_repo", "ensure_repo", "__version__"]
