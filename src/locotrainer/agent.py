@@ -180,3 +180,25 @@ def run_agent(
         "tool_calls": all_tool_calls,
         "messages": messages,
     }
+
+
+# ── Agent Class (wrapper for batch_collect.py compatibility) ────────────
+
+class Agent:
+    """Agent wrapper for convenient usage in batch collection scripts."""
+
+    def __init__(self, config: Config):
+        self.config = config
+
+    def run(self, query: str, verbose: bool = False) -> list[dict[str, Any]]:
+        """Run agent and return conversation messages.
+
+        Args:
+            query: User query string
+            verbose: Print progress during execution
+
+        Returns:
+            List of conversation messages (role, content)
+        """
+        result = run_agent(query, self.config, verbose=verbose)
+        return result["messages"]
