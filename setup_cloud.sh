@@ -56,10 +56,15 @@ echo ""
 echo "📦 Installing LocoTrainer dependencies..."
 uv pip install -e .
 
-# Install vLLM
+# Install vLLM (IMPORTANT: vLLM must be installed before transformers upgrade)
 echo ""
 echo "📦 Installing vLLM..."
 uv pip install vllm
+
+# Critical fix: vLLM bundles an old transformers that can't run LocoTrainer-4B
+echo ""
+echo "⚠️  Upgrading transformers to 5.2.0 (required for LocoTrainer-4B)..."
+uv pip install transformers==5.2.0
 
 # Verify installation
 echo ""

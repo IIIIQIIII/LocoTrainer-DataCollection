@@ -10,6 +10,8 @@ echo "🚀 Deploying 8 vLLM instances for LocoTrainer-4B..."
 echo "Model: $MODEL_PATH"
 echo "Base port: $BASE_PORT"
 echo ""
+echo "⚠️  Note: Ensure transformers==5.2.0 is installed (vLLM default version is incompatible)"
+echo ""
 
 # Kill any existing vLLM processes
 echo "Stopping existing vLLM instances..."
