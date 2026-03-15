@@ -1,0 +1,3281 @@
+{
+  "metadata": {
+    "total_queries": 500,
+    "source": "ms-swift documentation and use cases",
+    "generation_date": "2026-03-15",
+    "purpose": "Comprehensive query dataset for ms-swift distillation training",
+    "categories": [
+      "training_methods",
+      "advanced_features",
+      "quantization_export",
+      "model_support",
+      "inference_deployment",
+      "data_processing",
+      "optimization_performance",
+      "cli_configuration",
+      "hardware_distributed"
+    ],
+    "version": "1.0",
+    "selection_method": "balanced_proportional"
+  },
+  "statistics": {
+    "category_distribution": {
+      "training_methods": 73,
+      "advanced_features": 37,
+      "quantization_export": 37,
+      "model_support": 88,
+      "inference_deployment": 63,
+      "data_processing": 46,
+      "optimization_performance": 64,
+      "cli_configuration": 46,
+      "hardware_distributed": 46
+    },
+    "category_allocation_plan": {
+      "training_methods": 73,
+      "model_support": 88,
+      "data_processing": 46,
+      "inference_deployment": 63,
+      "optimization_performance": 64,
+      "hardware_distributed": 46,
+      "quantization_export": 37,
+      "cli_configuration": 46,
+      "advanced_features": 37
+    },
+    "original_category_counts": {
+      "training_methods": 80,
+      "model_support": 96,
+      "data_processing": 50,
+      "inference_deployment": 69,
+      "optimization_performance": 70,
+      "hardware_distributed": 50,
+      "quantization_export": 40,
+      "cli_configuration": 50,
+      "advanced_features": 40
+    },
+    "subcategory_distribution": {
+      "dpo_data_preparation": 1,
+      "optimizers": 5,
+      "awq_configuration": 3,
+      "qwen_family": 5,
+      "lmdeploy_integration": 9,
+      "multimodal_training": 13,
+      "awq_quality": 1,
+      "lora_configuration": 2,
+      "custom_model_registration": 10,
+      "reward_models_orm": 10,
+      "built_in_formats": 6,
+      "advanced_configurations": 4,
+      "transformers_engine": 10,
+      "deepspeed_zero": 10,
+      "gkd_parameters": 1,
+      "webui_app_mode": 1,
+      "multimodal_packing": 8,
+      "multi_gpu_fsdp": 4,
+      "callbacks_hooks": 5,
+      "data_caching": 3,
+      "dft": 5,
+      "galore": 10,
+      "model_architecture_patches": 9,
+      "command_overview": 1,
+      "lora_parameters": 1,
+      "adapter_management": 4,
+      "megatron_parallelism": 13,
+      "npu_setup": 2,
+      "argument_length": 1,
+      "specialized_tasks": 9,
+      "embedding_loss": 1,
+      "webui_config_export": 1,
+      "awq_usage": 2,
+      "mps_backend": 1,
+      "template_system": 9,
+      "openai_api": 9,
+      "gkd_setup": 1,
+      "yaml_env_vars": 1,
+      "multi_node_troubleshooting": 1,
+      "gkd_workflow": 1,
+      "webui_localization": 1,
+      "argument_lora_config": 1,
+      "lora_plus": 1,
+      "custom_dataset_creation": 6,
+      "reranker_listwise": 1,
+      "optimization": 2,
+      "vllm_backend": 15,
+      "agent_training": 9,
+      "custom_loss": 8,
+      "gkd_concept": 1,
+      "llama_family": 4,
+      "compatibility": 7,
+      "webui_monitoring": 1,
+      "yaml_multi_dataset": 1,
+      "pretraining_tuners": 1,
+      "internlm_family": 2,
+      "npu_monitoring": 1,
+      "gpu_optimization_a100": 4,
+      "inference_with_adapters": 1,
+      "npu_inference": 1,
+      "cpu_mps_comparison": 1,
+      "argument_deepspeed": 1,
+      "grpo": 1,
+      "pretraining_setup": 1,
+      "gptq_configuration": 3,
+      "rlhf_comparison": 1,
+      "lora_variants": 1,
+      "ppo_setup": 1,
+      "inference": 1,
+      "streaming_inference": 9,
+      "multimodal_data": 1,
+      "sequence_parallel": 13,
+      "dataset_loading": 17,
+      "cpo_usage": 1,
+      "sglang_integration": 7,
+      "cpt_vs_sft": 1,
+      "continual_pretraining": 1,
+      "dpo_configuration": 1,
+      "multi_gpu_deepspeed": 2,
+      "data_format_differences": 1,
+      "full_parameter_deepspeed": 1,
+      "yaml_separation": 1,
+      "webui_self_cognition": 1,
+      "gpu_optimization_rtx": 1,
+      "hub_push_basic": 1,
+      "glm_family": 3,
+      "npu_fsdp": 1,
+      "rlhf_workflow": 1,
+      "env_model_specific": 1,
+      "multimodal_embedding": 1,
+      "cpu_optimization": 1,
+      "webui_deployment": 1,
+      "classification_types": 1,
+      "preprocessing": 7,
+      "ppo_reward_model": 1,
+      "gkd_teacher_api": 1,
+      "distributed_best_practices": 3,
+      "argument_batch_size": 1,
+      "bnb_usage": 2,
+      "sampling": 1,
+      "awq_multimodal": 1,
+      "gptq_installation": 1,
+      "bnb_configuration": 2,
+      "rlhf": 1,
+      "reranker_auto_patch": 1,
+      "awq_basic": 1,
+      "hub_push_usage": 1,
+      "kto_vs_dpo": 1,
+      "flash_attention": 9,
+      "gpu_optimization_h100": 2,
+      "reranker_training": 1,
+      "multi_gpu_ddp": 6,
+      "webui_basics": 1,
+      "awq_installation": 1,
+      "gkd_on_policy": 1,
+      "pretraining_templates": 1,
+      "rloo_algorithm": 1,
+      "peft_methods": 1,
+      "multi_node_training": 2,
+      "yaml_lora": 1,
+      "distributed_parallelism": 2,
+      "env_gpu_selection": 1,
+      "mistral_family": 3,
+      "deepseek_family": 3,
+      "argument_plugins": 1,
+      "fp8_comparison": 1,
+      "evaluation": 1,
+      "grpo_benefits": 1,
+      "sapo_usage": 1,
+      "webui_multi_job": 1,
+      "lora_applications": 1,
+      "sft_basic": 1,
+      "quantized_training": 1,
+      "npu_deepspeed": 1,
+      "gptq_methods": 1,
+      "env_download_source": 1,
+      "qlora_benefits": 1,
+      "grpo_acceleration": 1,
+      "model_export": 1,
+      "gpu_hardware_comparison": 1,
+      "env_distributed": 1,
+      "base_to_chat": 1,
+      "npu_configuration": 1,
+      "single_gpu_optimization": 1,
+      "dora_usage": 1,
+      "pretraining_data_loading": 1,
+      "qlora_quantization": 1,
+      "embedding_reranker_lora": 1,
+      "orpo_concept": 1,
+      "gptq_basic": 1,
+      "seq_cls_evaluation": 1,
+      "ollama_limitations": 1,
+      "training_method_selection": 1,
+      "gkd_acceleration": 1,
+      "argument_inference_backend": 1,
+      "bnb_performance": 1,
+      "ollama_usage": 1,
+      "bnb_basic": 1,
+      "multi_gpu": 1,
+      "gkd_topk": 1,
+      "reranker_types": 1,
+      "full_parameter_use_cases": 1,
+      "model_comparison": 4,
+      "tuner_types": 1,
+      "hub_push_configuration": 3,
+      "hybrid_training": 1,
+      "quantization": 1,
+      "cpu_training": 1,
+      "troubleshooting": 3,
+      "gptq_multimodal": 1,
+      "yaml_multimodal": 1,
+      "qlora_limitations": 1,
+      "multimodal_reranker": 1,
+      "npu_architecture": 1,
+      "distributed_troubleshooting": 1,
+      "full_parameter_memory": 1,
+      "gspo_implementation": 1,
+      "gptq_performance": 1,
+      "adapter_vs_lora": 1,
+      "webui_rlhf_metrics": 1,
+      "multi_gpu_troubleshooting": 1,
+      "model_publishing": 1,
+      "loss_configuration": 1,
+      "grpo_implementation": 1,
+      "lora_advanced": 1,
+      "bnb_limitations": 1,
+      "embedding_training": 1,
+      "training_objectives": 1,
+      "gkd_seq_kd": 1,
+      "lora_deployment": 1,
+      "ollama_configuration": 1,
+      "yaml_config": 1,
+      "fp8_basic": 1,
+      "argument_packing": 1,
+      "yaml_multi_node": 1,
+      "env_memory_management": 1,
+      "seq_cls_reward": 1,
+      "seq_cls_configuration": 1,
+      "argument_training_schedule": 1,
+      "dpo_parameters": 1,
+      "seq_cls_training": 1,
+      "ollama_deployment": 1,
+      "deployment": 1,
+      "gptq_deployment": 1,
+      "argument_model_kwargs": 1,
+      "simpo_configuration": 1,
+      "npu_megatron": 1,
+      "npu_troubleshooting": 1,
+      "device_detection": 1,
+      "yaml_deepspeed": 1,
+      "multimodal_mixed_training": 1,
+      "ollama_basic": 1,
+      "webui_job_management": 1,
+      "embedding_data_prep": 1,
+      "gkd_divergence_types": 1
+    },
+    "complexity_distribution": {
+      "simple": 61,
+      "medium": 386,
+      "complex": 53
+    },
+    "total_subcategories": 215
+  },
+  "queries": [
+    {
+      "id": "msswift_0001",
+      "query": "How do I prepare a preference dataset for DPO training?",
+      "category": "training_methods",
+      "subcategory": "dpo_data_preparation"
+    },
+    {
+      "id": "msswift_0002",
+      "query": "How can I use Q-GaLore for memory-efficient training by enabling galore_quantization and galore_proj_quant?",
+      "category": "advanced_features",
+      "subcategory": "optimizers"
+    },
+    {
+      "id": "msswift_0003",
+      "query": "How do I set max_length when performing AWQ quantization on long-context models?",
+      "category": "quantization_export",
+      "subcategory": "awq_configuration"
+    },
+    {
+      "id": "msswift_0004",
+      "query": "How can I train a Qwen3-VL multimodal model for image-text tasks?",
+      "category": "model_support",
+      "subcategory": "qwen_family"
+    },
+    {
+      "id": "msswift_0005",
+      "query": "How do I troubleshoot LMDeploy deployment issues with custom models?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0006",
+      "query": "How can I train Qwen2-Audio models for speech recognition tasks?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0007",
+      "query": "How does the quality of AWQ-quantized models compare to original models in terms of perplexity and downstream task performance?",
+      "category": "quantization_export",
+      "subcategory": "awq_quality"
+    },
+    {
+      "id": "msswift_0008",
+      "query": "How do I configure LoRA rank and alpha for fine-tuning a 7B model?",
+      "category": "training_methods",
+      "subcategory": "lora_configuration"
+    },
+    {
+      "id": "msswift_0009",
+      "query": "How do I register both ModelScope and HuggingFace model IDs for the same model type?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0010",
+      "query": "How can I implement an AsyncORM class to use async API calls as reward functions in GRPO training?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0011",
+      "query": "How can I create a dataset for RLHF training with rejected_response fields?",
+      "category": "data_processing",
+      "subcategory": "built_in_formats"
+    },
+    {
+      "id": "msswift_0012",
+      "query": "Can I use Ring Attention with Ulysses sequence parallelism for training on very long sequences?",
+      "category": "model_support",
+      "subcategory": "advanced_configurations"
+    },
+    {
+      "id": "msswift_0013",
+      "query": "What are the steps for training Qwen3-Omni-MoE models with audio and text inputs?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0014",
+      "query": "What are the differences between Qwen, Qwen2, and Qwen3 model families in ms-swift?",
+      "category": "model_support",
+      "subcategory": "qwen_family"
+    },
+    {
+      "id": "msswift_0015",
+      "query": "How do I enable DDP inference with transformers backend?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0016",
+      "query": "How do I configure zero2_offload to use CPU memory for training large models?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0017",
+      "query": "What is the beta parameter in GKD and how does it control KL divergence?",
+      "category": "training_methods",
+      "subcategory": "gkd_parameters"
+    },
+    {
+      "id": "msswift_0018",
+      "query": "What is the swift app command and how does it differ from swift web-ui?",
+      "category": "cli_configuration",
+      "subcategory": "webui_app_mode"
+    },
+    {
+      "id": "msswift_0019",
+      "query": "Does LMDeploy support quantized models like GPTQ-Int4?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0020",
+      "query": "How do I use an external reward model with value head during GRPO training using the --reward_model argument?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0021",
+      "query": "What is the difference between packing and padding_free for multimodal training?",
+      "category": "optimization_performance",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0022",
+      "query": "How do I configure FSDP2 instead of FSDP1 for distributed training in ms-swift?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_fsdp"
+    },
+    {
+      "id": "msswift_0023",
+      "query": "How can I implement custom training callbacks by extending the base callback class and registering them in callbacks_map?",
+      "category": "advanced_features",
+      "subcategory": "callbacks_hooks"
+    },
+    {
+      "id": "msswift_0024",
+      "query": "What is the difference between cached_dataset and regular dataset loading in terms of performance?",
+      "category": "data_processing",
+      "subcategory": "data_caching"
+    },
+    {
+      "id": "msswift_0025",
+      "query": "What is Dynamic Fine-Tuning (DFT) and how does it improve training efficiency?",
+      "category": "optimization_performance",
+      "subcategory": "dft"
+    },
+    {
+      "id": "msswift_0026",
+      "query": "What is max_batch_size parameter in TransformersEngine?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0027",
+      "query": "Is GaLore compatible with gradient accumulation and mixed precision training?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0028",
+      "query": "How do I enable or disable specific model patches when using custom architectures?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0029",
+      "query": "What is the difference between 'swift pt', 'swift sft', and 'swift rlhf' commands?",
+      "category": "cli_configuration",
+      "subcategory": "command_overview"
+    },
+    {
+      "id": "msswift_0030",
+      "query": "What is the difference between lora_rank and lora_alpha?",
+      "category": "training_methods",
+      "subcategory": "lora_parameters"
+    },
+    {
+      "id": "msswift_0031",
+      "query": "How do I configure max_loras and max_lora_rank for vLLM with multiple adapters?",
+      "category": "inference_deployment",
+      "subcategory": "adapter_management"
+    },
+    {
+      "id": "msswift_0032",
+      "query": "Can I combine tensor parallel, pipeline parallel, and data parallel in the same training run?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0033",
+      "query": "Can I use DeepSpeed ZeRO with QLoRA fine-tuning?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0034",
+      "query": "What are the version requirements for CANN, torch, and torch_npu when using Ascend NPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_setup"
+    },
+    {
+      "id": "msswift_0035",
+      "query": "What is the difference between --max_length and --max_new_tokens arguments?",
+      "category": "cli_configuration",
+      "subcategory": "argument_length"
+    },
+    {
+      "id": "msswift_0036",
+      "query": "What is the recommended approach for training math reasoning models like Qwen2.5-Math?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0037",
+      "query": "What loss functions are used for embedding model training?",
+      "category": "training_methods",
+      "subcategory": "embedding_loss"
+    },
+    {
+      "id": "msswift_0038",
+      "query": "Can I export and import training configurations between Web UI and command line?",
+      "category": "cli_configuration",
+      "subcategory": "webui_config_export"
+    },
+    {
+      "id": "msswift_0039",
+      "query": "What is the difference between using autoawq for quantization versus loading an already AWQ-quantized model?",
+      "category": "quantization_export",
+      "subcategory": "awq_usage"
+    },
+    {
+      "id": "msswift_0040",
+      "query": "How do I train reward models like InternLM2-Reward for RLHF tasks?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0041",
+      "query": "How do I merge LoRA weights back into the base model using swift export?",
+      "category": "inference_deployment",
+      "subcategory": "adapter_management"
+    },
+    {
+      "id": "msswift_0042",
+      "query": "What is expert parallelism and when should I use it for MoE models?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0043",
+      "query": "What are the memory requirements for transformers inference compared to vLLM?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0044",
+      "query": "What is the difference between ORM and PRM reward models in ms-swift, and when should I use each?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0045",
+      "query": "What is MPS backend and how do I enable it for training on Apple Silicon GPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "mps_backend"
+    },
+    {
+      "id": "msswift_0046",
+      "query": "Can I use Jinja templates instead of the default template format in ms-swift?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0047",
+      "query": "Can I override the default template for an existing model type during registration?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0048",
+      "query": "What is the format for passing base64 encoded images to OpenAI-compatible API?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0049",
+      "query": "How do I use InferClient to connect to a deployed swift model?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0050",
+      "query": "How do I train a custom Outcome Reward Model (ORM) for GRPO with my own reward logic in ms-swift?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0051",
+      "query": "How do I call the deployed model using OpenAI Python client?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0052",
+      "query": "How do I set up teacher and student models for GKD training?",
+      "category": "training_methods",
+      "subcategory": "gkd_setup"
+    },
+    {
+      "id": "msswift_0053",
+      "query": "Can I use environment variable substitution in YAML config files?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_env_vars"
+    },
+    {
+      "id": "msswift_0054",
+      "query": "What are agent templates and how do I configure them for tool-calling models?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0055",
+      "query": "Why does only the main node produce logs during multi-node multi-GPU training?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_node_troubleshooting"
+    },
+    {
+      "id": "msswift_0056",
+      "query": "What is the recommended workflow for GKD: offline then on-policy?",
+      "category": "training_methods",
+      "subcategory": "gkd_workflow"
+    },
+    {
+      "id": "msswift_0057",
+      "query": "How do I customize the Web UI language with SWIFT_UI_LANG environment variable?",
+      "category": "cli_configuration",
+      "subcategory": "webui_localization"
+    },
+    {
+      "id": "msswift_0058",
+      "query": "How can I override the default template for a model using the --template command line argument?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0059",
+      "query": "How do I send multimodal requests with images and videos to the deployed API?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0060",
+      "query": "How do I configure LoRA hyperparameters like --lora_rank, --lora_alpha, and --target_modules?",
+      "category": "cli_configuration",
+      "subcategory": "argument_lora_config"
+    },
+    {
+      "id": "msswift_0061",
+      "query": "How do I configure LoRA+ with different learning rates for A and B matrices?",
+      "category": "training_methods",
+      "subcategory": "lora_plus"
+    },
+    {
+      "id": "msswift_0062",
+      "query": "How do I implement a custom preprocess_func for complex data transformations in DatasetMeta?",
+      "category": "data_processing",
+      "subcategory": "custom_dataset_creation"
+    },
+    {
+      "id": "msswift_0063",
+      "query": "How do I configure listwise training for reranker models?",
+      "category": "training_methods",
+      "subcategory": "reranker_listwise"
+    },
+    {
+      "id": "msswift_0064",
+      "query": "How do I configure shuffle_buffer_size for streaming datasets?",
+      "category": "data_processing",
+      "subcategory": "optimization"
+    },
+    {
+      "id": "msswift_0065",
+      "query": "How do I configure vLLM backend for inference with a Qwen2.5-7B model?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0066",
+      "query": "How do I configure multi-turn agent training with tool calling using GRPO's multi-turn inference scheduler?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0067",
+      "query": "How can I implement binary vs non-binary loss scales and what is the impact on training with liger_kernel?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0068",
+      "query": "What is GKD (Generalized Knowledge Distillation)?",
+      "category": "training_methods",
+      "subcategory": "gkd_concept"
+    },
+    {
+      "id": "msswift_0069",
+      "query": "How do I use the Chinese Llama2 models from HFL with appropriate templates?",
+      "category": "model_support",
+      "subcategory": "llama_family"
+    },
+    {
+      "id": "msswift_0070",
+      "query": "Can I mix different model architectures in a single training pipeline?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0071",
+      "query": "How do I monitor training loss and learning rate curves in real-time using the Web UI?",
+      "category": "cli_configuration",
+      "subcategory": "webui_monitoring"
+    },
+    {
+      "id": "msswift_0072",
+      "query": "What is the multimodal packing technique and how does it improve training speed?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0073",
+      "query": "How do I structure a YAML file for multi-dataset training with different sampling ratios?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_multi_dataset"
+    },
+    {
+      "id": "msswift_0074",
+      "query": "How can I independently control learning rates for the vision encoder, aligner, and LLM in multimodal training?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0075",
+      "query": "Can I use LoRA for pre-training or should I always use full parameters?",
+      "category": "training_methods",
+      "subcategory": "pretraining_tuners"
+    },
+    {
+      "id": "msswift_0076",
+      "query": "What are the best practices for fine-tuning InternLM3-8B with custom datasets?",
+      "category": "model_support",
+      "subcategory": "internlm_family"
+    },
+    {
+      "id": "msswift_0077",
+      "query": "How do I use npu-smi command to monitor NPU utilization and memory usage during training?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_monitoring"
+    },
+    {
+      "id": "msswift_0078",
+      "query": "How can I maximize GPU utilization on A100 by using packing and increasing batch size?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_a100"
+    },
+    {
+      "id": "msswift_0079",
+      "query": "How do I specify adapters path when running inference with swift infer?",
+      "category": "cli_configuration",
+      "subcategory": "inference_with_adapters"
+    },
+    {
+      "id": "msswift_0080",
+      "query": "Does ms-swift support vLLM inference acceleration on Ascend NPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_inference"
+    },
+    {
+      "id": "msswift_0081",
+      "query": "What's the performance difference between training on CPU vs MPS for smaller models?",
+      "category": "hardware_distributed",
+      "subcategory": "cpu_mps_comparison"
+    },
+    {
+      "id": "msswift_0082",
+      "query": "How do I enable tensor parallelism in Megatron-SWIFT for training large models?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0083",
+      "query": "What are the options for --deepspeed argument and when should I use each?",
+      "category": "cli_configuration",
+      "subcategory": "argument_deepspeed"
+    },
+    {
+      "id": "msswift_0084",
+      "query": "What are the steps to perform GRPO training with vLLM inference acceleration?",
+      "category": "cli_configuration",
+      "subcategory": "grpo"
+    },
+    {
+      "id": "msswift_0085",
+      "query": "How do I run pre-training with swift pt command?",
+      "category": "training_methods",
+      "subcategory": "pretraining_setup"
+    },
+    {
+      "id": "msswift_0086",
+      "query": "What is the quant_n_samples parameter in GPTQ and how does it affect quantization accuracy?",
+      "category": "quantization_export",
+      "subcategory": "gptq_configuration"
+    },
+    {
+      "id": "msswift_0087",
+      "query": "How do I configure sequence parallel training for long-context models like Qwen2-32K?",
+      "category": "model_support",
+      "subcategory": "advanced_configurations"
+    },
+    {
+      "id": "msswift_0088",
+      "query": "What is the difference between GRPO and PPO?",
+      "category": "training_methods",
+      "subcategory": "rlhf_comparison"
+    },
+    {
+      "id": "msswift_0089",
+      "query": "What is the difference between LoRA, QLoRA, and DoRA?",
+      "category": "training_methods",
+      "subcategory": "lora_variants"
+    },
+    {
+      "id": "msswift_0090",
+      "query": "How do I use InternVL3.5 for multimodal training with mixed image and text data?",
+      "category": "model_support",
+      "subcategory": "internlm_family"
+    },
+    {
+      "id": "msswift_0091",
+      "query": "How do I set up PPO training with four models (policy, ref, reward, value)?",
+      "category": "training_methods",
+      "subcategory": "ppo_setup"
+    },
+    {
+      "id": "msswift_0092",
+      "query": "How do I enable pipeline parallelism with vLLM backend?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0093",
+      "query": "How do I use the swift infer command to test my fine-tuned model with streaming output?",
+      "category": "cli_configuration",
+      "subcategory": "inference"
+    },
+    {
+      "id": "msswift_0094",
+      "query": "Can I use streaming inference with multiple LoRA adapters simultaneously?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0095",
+      "query": "What modifications does ms-swift make to support Unsloth acceleration for different model families?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0096",
+      "query": "How does IterablePackingDataset differ from PackingDataset in terms of memory usage and processing?",
+      "category": "data_processing",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0097",
+      "query": "How do I handle multimodal datasets with images, videos, and audios fields in ms-swift?",
+      "category": "data_processing",
+      "subcategory": "multimodal_data"
+    },
+    {
+      "id": "msswift_0098",
+      "query": "How do I enable sequence parallel in ms-swift for training long context models?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0099",
+      "query": "Does streaming inference support multimodal inputs like video and audio?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0100",
+      "query": "How do I set up multi-GPU training for Qwen2-VL-7B with vision inputs?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0101",
+      "query": "How do I load and fine-tune a quantized Qwen1.5-7B-Chat-GPTQ-Int4 model?",
+      "category": "model_support",
+      "subcategory": "qwen_family"
+    },
+    {
+      "id": "msswift_0102",
+      "query": "What are the steps to register a custom multimodal model with specific model_arch configuration?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0103",
+      "query": "What is the maximum sequence length I can train with sequence parallelism on 8 A100 GPUs?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0104",
+      "query": "How do I enable Megatron-SWIFT parallelism for training large MoE models like DeepSeek-V3?",
+      "category": "model_support",
+      "subcategory": "advanced_configurations"
+    },
+    {
+      "id": "msswift_0105",
+      "query": "How can I enable FSDP training for a 70B model across two 3090 GPUs with QLoRA?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_fsdp"
+    },
+    {
+      "id": "msswift_0106",
+      "query": "What parameters does the load_dataset function accept for controlling dataset shuffling and splitting?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0107",
+      "query": "What is CPO and when should I use it over DPO?",
+      "category": "training_methods",
+      "subcategory": "cpo_usage"
+    },
+    {
+      "id": "msswift_0108",
+      "query": "How do I use num_proc parameter to parallelize dataset preprocessing?",
+      "category": "data_processing",
+      "subcategory": "optimization"
+    },
+    {
+      "id": "msswift_0109",
+      "query": "How do I configure SGLang for optimal throughput on large batch inference?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0110",
+      "query": "How do I implement early stopping using the early_stop_interval parameter with custom metric evaluation?",
+      "category": "advanced_features",
+      "subcategory": "callbacks_hooks"
+    },
+    {
+      "id": "msswift_0111",
+      "query": "What is the difference between pre-training (CPT) and fine-tuning (SFT)?",
+      "category": "training_methods",
+      "subcategory": "cpt_vs_sft"
+    },
+    {
+      "id": "msswift_0112",
+      "query": "How do I enable streaming inference with RequestConfig?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0113",
+      "query": "What are the performance differences between LMDeploy and vLLM for vision-language models?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0114",
+      "query": "How do I configure recompute_granularity for optimal memory-speed tradeoff in Megatron?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0115",
+      "query": "How does GaLore affect training speed compared to LoRA?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0116",
+      "query": "How do I continue pre-training from a base model checkpoint?",
+      "category": "training_methods",
+      "subcategory": "continual_pretraining"
+    },
+    {
+      "id": "msswift_0117",
+      "query": "How do I load multiple LoRA adapters dynamically with TransformersEngine?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0118",
+      "query": "How do I enable DeepSpeed ZeRO-2 for distributed training in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0119",
+      "query": "What is the query-response format with history field and how is it structured?",
+      "category": "data_processing",
+      "subcategory": "built_in_formats"
+    },
+    {
+      "id": "msswift_0120",
+      "query": "What are the key hyperparameters for DPO training?",
+      "category": "training_methods",
+      "subcategory": "dpo_configuration"
+    },
+    {
+      "id": "msswift_0121",
+      "query": "How can I use DeepSpeed ZeRO3 with FSDP offloading to train a 72B model on 2 GPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_deepspeed"
+    },
+    {
+      "id": "msswift_0122",
+      "query": "What is galore_optim_per_parameter and when should I use it?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0123",
+      "query": "How do I configure Q-Galore for quantized gradient optimization?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0124",
+      "query": "How can I export a cached dataset using swift export --to_cached_dataset command?",
+      "category": "data_processing",
+      "subcategory": "data_caching"
+    },
+    {
+      "id": "msswift_0125",
+      "query": "How do I set target_modules for LoRA training?",
+      "category": "training_methods",
+      "subcategory": "lora_configuration"
+    },
+    {
+      "id": "msswift_0126",
+      "query": "What is the data format required for pre-training vs fine-tuning?",
+      "category": "training_methods",
+      "subcategory": "data_format_differences"
+    },
+    {
+      "id": "msswift_0127",
+      "query": "How do I configure a dataset in dataset_info.json with ms_dataset_id, hf_dataset_id, and subsets?",
+      "category": "data_processing",
+      "subcategory": "custom_dataset_creation"
+    },
+    {
+      "id": "msswift_0128",
+      "query": "How do I enable full-parameter training with DeepSpeed ZeRO3?",
+      "category": "training_methods",
+      "subcategory": "full_parameter_deepspeed"
+    },
+    {
+      "id": "msswift_0129",
+      "query": "How can I define training, evaluation, and inference settings in separate YAML files?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_separation"
+    },
+    {
+      "id": "msswift_0130",
+      "query": "How do I configure self-cognition training (model_name, model_author) through the Web UI?",
+      "category": "cli_configuration",
+      "subcategory": "webui_self_cognition"
+    },
+    {
+      "id": "msswift_0131",
+      "query": "What batch size and gradient accumulation should I use for training a 7B model on RTX 3090 with 24GB VRAM?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_rtx"
+    },
+    {
+      "id": "msswift_0132",
+      "query": "How do I push a quantized model to ModelScope hub with a specific model ID and token?",
+      "category": "quantization_export",
+      "subcategory": "hub_push_basic"
+    },
+    {
+      "id": "msswift_0133",
+      "query": "How do I configure a template with system prompts for models like Qwen or Llama3?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0134",
+      "query": "What is the template configuration for ChatGLM4 versus GLM4 models?",
+      "category": "model_support",
+      "subcategory": "glm_family"
+    },
+    {
+      "id": "msswift_0135",
+      "query": "How do I fine-tune financial domain models like Tongyi-Finance using ms-swift?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0136",
+      "query": "How does ms-swift handle different vision encoder architectures in multimodal models?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0137",
+      "query": "Can I use FSDP1, FSDP2, and DeepSpeed on Ascend NPUs for training Qwen models?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_fsdp"
+    },
+    {
+      "id": "msswift_0138",
+      "query": "What is the recommended workflow for RLHF: SFT first or direct RLHF?",
+      "category": "training_methods",
+      "subcategory": "rlhf_workflow"
+    },
+    {
+      "id": "msswift_0139",
+      "query": "What parameters do I need to specify in ModelMeta when registering a new model type?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0140",
+      "query": "How can I use environment variables instead of --model_kwargs for model-specific settings?",
+      "category": "cli_configuration",
+      "subcategory": "env_model_specific"
+    },
+    {
+      "id": "msswift_0141",
+      "query": "Can I train multimodal embedding models with ms-swift?",
+      "category": "training_methods",
+      "subcategory": "multimodal_embedding"
+    },
+    {
+      "id": "msswift_0142",
+      "query": "Can I use gradient checkpointing on CPU training to reduce memory usage?",
+      "category": "hardware_distributed",
+      "subcategory": "cpu_optimization"
+    },
+    {
+      "id": "msswift_0143",
+      "query": "How do I use the Web UI to deploy a model and test it with the interactive chat interface?",
+      "category": "cli_configuration",
+      "subcategory": "webui_deployment"
+    },
+    {
+      "id": "msswift_0144",
+      "query": "How can I specify custom stop words and suffix tokens for a template?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0145",
+      "query": "Can I combine Ulysses and Ring-Attention for better sequence parallel performance?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0146",
+      "query": "What is the purpose of the model_arch parameter and how does it affect training for multimodal models?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0147",
+      "query": "What is the difference between sequence classification and token classification?",
+      "category": "training_methods",
+      "subcategory": "classification_types"
+    },
+    {
+      "id": "msswift_0148",
+      "query": "What is the purpose of remove_unused_columns parameter in dataset preprocessing?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0149",
+      "query": "How do I enable DFT loss with the enable_dft_loss parameter?",
+      "category": "optimization_performance",
+      "subcategory": "dft"
+    },
+    {
+      "id": "msswift_0150",
+      "query": "How do I train a reward model for PPO using ms-swift?",
+      "category": "training_methods",
+      "subcategory": "ppo_reward_model"
+    },
+    {
+      "id": "msswift_0151",
+      "query": "Can I use an external API as the teacher model in GKD training?",
+      "category": "training_methods",
+      "subcategory": "gkd_teacher_api"
+    },
+    {
+      "id": "msswift_0152",
+      "query": "What are the memory requirements for training Llama-2-70B with QLoRA on ms-swift?",
+      "category": "model_support",
+      "subcategory": "llama_family"
+    },
+    {
+      "id": "msswift_0153",
+      "query": "How can I configure data packing for efficient training with PackingDataset?",
+      "category": "data_processing",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0154",
+      "query": "How do I set up self-cognition datasets with model_name and model_author parameters?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0155",
+      "query": "How can I specify split parameters (train, test, validation) for different dataset subsets?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0156",
+      "query": "Can I use Megatron parallelism with LoRA fine-tuning?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0157",
+      "query": "What's the best strategy for resuming distributed training from checkpoints without losing optimizer state?",
+      "category": "hardware_distributed",
+      "subcategory": "distributed_best_practices"
+    },
+    {
+      "id": "msswift_0158",
+      "query": "How do I use --gradient_accumulation_steps to simulate larger batch sizes?",
+      "category": "cli_configuration",
+      "subcategory": "argument_batch_size"
+    },
+    {
+      "id": "msswift_0159",
+      "query": "Does BNB quantization require a calibration dataset like AWQ and GPTQ do?",
+      "category": "quantization_export",
+      "subcategory": "bnb_usage"
+    },
+    {
+      "id": "msswift_0160",
+      "query": "What algorithm does ms-swift use for packing sequences together (binpacking)?",
+      "category": "data_processing",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0161",
+      "query": "How do I use the swift sample command to generate multiple responses per prompt?",
+      "category": "cli_configuration",
+      "subcategory": "sampling"
+    },
+    {
+      "id": "msswift_0162",
+      "query": "What preprocessing steps are needed to convert sharegpt format with conversation field to messages format?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0163",
+      "query": "What types of tasks benefit most from Dynamic Fine-Tuning?",
+      "category": "optimization_performance",
+      "subcategory": "dft"
+    },
+    {
+      "id": "msswift_0164",
+      "query": "What are the differences between vLLM's data parallelism and tensor parallelism?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0165",
+      "query": "Can I use AWQ quantization on multimodal models like Qwen2.5-VL, and are there any limitations?",
+      "category": "quantization_export",
+      "subcategory": "awq_multimodal"
+    },
+    {
+      "id": "msswift_0166",
+      "query": "What are the CUDA compatibility requirements for auto_gptq and how do I install the correct version?",
+      "category": "quantization_export",
+      "subcategory": "gptq_installation"
+    },
+    {
+      "id": "msswift_0167",
+      "query": "How do I register a custom model that is not in the default ms-swift model list?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0168",
+      "query": "What is the difference between fp4 and nf4 quantization types in BNB and which should I use?",
+      "category": "quantization_export",
+      "subcategory": "bnb_configuration"
+    },
+    {
+      "id": "msswift_0169",
+      "query": "How do I run DPO training with the swift rlhf command and specify the rlhf_type?",
+      "category": "cli_configuration",
+      "subcategory": "rlhf"
+    },
+    {
+      "id": "msswift_0170",
+      "query": "What is auto-patch mode for reranker training?",
+      "category": "training_methods",
+      "subcategory": "reranker_auto_patch"
+    },
+    {
+      "id": "msswift_0171",
+      "query": "How can I specify packing_num_proc to parallelize the packing process?",
+      "category": "data_processing",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0172",
+      "query": "How do I quantize a Qwen2.5-72B model using AWQ with 4-bit precision?",
+      "category": "quantization_export",
+      "subcategory": "awq_basic"
+    },
+    {
+      "id": "msswift_0173",
+      "query": "How does ms-swift patch model architectures to support features like gradient checkpointing?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0174",
+      "query": "What calibration dataset should I use for AWQ quantization and how many samples are recommended?",
+      "category": "quantization_export",
+      "subcategory": "awq_configuration"
+    },
+    {
+      "id": "msswift_0175",
+      "query": "Can I push both the base model and adapters to the hub, or do I need to merge LoRA first?",
+      "category": "quantization_export",
+      "subcategory": "hub_push_usage"
+    },
+    {
+      "id": "msswift_0176",
+      "query": "How does KTO differ from DPO in terms of data requirements?",
+      "category": "training_methods",
+      "subcategory": "kto_vs_dpo"
+    },
+    {
+      "id": "msswift_0177",
+      "query": "Can I modify the forward pass of a model using patches without changing the model source code?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0178",
+      "query": "Can I use Flash Attention 3 with transformers 4.53 for faster training in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0179",
+      "query": "What are the hardware requirements for using Flash Attention in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0180",
+      "query": "Does sequence parallel work with LoRA fine-tuning in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0181",
+      "query": "What are the optimal training settings for Qwen2.5-7B on H100 GPUs with 80GB memory?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_h100"
+    },
+    {
+      "id": "msswift_0182",
+      "query": "How do I train a reranker model for information retrieval?",
+      "category": "training_methods",
+      "subcategory": "reranker_training"
+    },
+    {
+      "id": "msswift_0183",
+      "query": "How do I enable Flash Attention 2 in ms-swift for training a Qwen model?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0184",
+      "query": "Can I use ms-swift to train process reward models (PRMs) like Qwen2.5-PRM?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0185",
+      "query": "How do I configure the model_arch parameter for training InternVL2 multimodal models?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0186",
+      "query": "What is the NPROC_PER_NODE environment variable and how should I set it for multi-GPU training?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_ddp"
+    },
+    {
+      "id": "msswift_0187",
+      "query": "How do I start the Web UI and switch between training, inference, and deployment tabs?",
+      "category": "cli_configuration",
+      "subcategory": "webui_basics"
+    },
+    {
+      "id": "msswift_0188",
+      "query": "What is the configuration for training reranker models like Qwen3-Reranker?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0189",
+      "query": "How do I troubleshoot grad_norm NaN when using DeepSpeed ZeRO++?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0190",
+      "query": "What are the CUDA version requirements for autoawq and how do I resolve torch dependency conflicts?",
+      "category": "quantization_export",
+      "subcategory": "awq_installation"
+    },
+    {
+      "id": "msswift_0191",
+      "query": "How do I configure on-policy learning in GKD with the lambda parameter?",
+      "category": "training_methods",
+      "subcategory": "gkd_on_policy"
+    },
+    {
+      "id": "msswift_0192",
+      "query": "How do I set up LMDeploy for batch inference on large datasets?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0193",
+      "query": "How do I configure vLLM for streaming inference with low latency?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0194",
+      "query": "What is the purpose of the OMP_NUM_THREADS=14 setting when using GPTQ quantization?",
+      "category": "quantization_export",
+      "subcategory": "gptq_configuration"
+    },
+    {
+      "id": "msswift_0195",
+      "query": "What preprocessing steps does AutoPreprocessor perform on query-response format datasets?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0196",
+      "query": "How do I check if a specific model supports Megatron parallelism training?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0197",
+      "query": "Should I use a chat template for pre-training?",
+      "category": "training_methods",
+      "subcategory": "pretraining_templates"
+    },
+    {
+      "id": "msswift_0198",
+      "query": "What is sglang_tp_size and how do I configure it for multi-GPU setup?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0199",
+      "query": "What is RLOO and how does it improve sample efficiency?",
+      "category": "training_methods",
+      "subcategory": "rloo_algorithm"
+    },
+    {
+      "id": "msswift_0200",
+      "query": "What parameter-efficient methods does ms-swift support besides LoRA?",
+      "category": "training_methods",
+      "subcategory": "peft_methods"
+    },
+    {
+      "id": "msswift_0201",
+      "query": "How does Megatron-SWIFT compare to DeepSpeed ZeRO3 for training speed and memory?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0202",
+      "query": "What are the differences between 'default', 'last_round', and 'all' base_strategy options in loss scaling?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0203",
+      "query": "How do I configure multi-node distributed training using torchrun across 2 machines with 8 GPUs each?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_node_training"
+    },
+    {
+      "id": "msswift_0204",
+      "query": "What model architecture patches are applied for Qwen models to fix distributed training bugs?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0205",
+      "query": "Does SGLang support multimodal models for inference?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0206",
+      "query": "What is the format for specifying LoRA configuration parameters in a YAML file?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_lora"
+    },
+    {
+      "id": "msswift_0207",
+      "query": "What's the difference between data parallelism, tensor parallelism, and pipeline parallelism in Megatron?",
+      "category": "hardware_distributed",
+      "subcategory": "distributed_parallelism"
+    },
+    {
+      "id": "msswift_0208",
+      "query": "How do I set CUDA_VISIBLE_DEVICES to control which GPUs are used for training?",
+      "category": "cli_configuration",
+      "subcategory": "env_gpu_selection"
+    },
+    {
+      "id": "msswift_0209",
+      "query": "What happens when I use the 'all' keyword for subsets in dataset loading?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0210",
+      "query": "How do I install flash-attn for A100 GPUs and enable it with --attn_impl flash_attn?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_a100"
+    },
+    {
+      "id": "msswift_0211",
+      "query": "How do I configure the template for Mistral-Nemo-Instruct models?",
+      "category": "model_support",
+      "subcategory": "mistral_family"
+    },
+    {
+      "id": "msswift_0212",
+      "query": "How do I train DeepSeek-VL2 multimodal models for document understanding tasks?",
+      "category": "model_support",
+      "subcategory": "deepseek_family"
+    },
+    {
+      "id": "msswift_0213",
+      "query": "What is the purpose of --external_plugins and how do I register custom models?",
+      "category": "cli_configuration",
+      "subcategory": "argument_plugins"
+    },
+    {
+      "id": "msswift_0214",
+      "query": "How do I use LMDeploy with GRPO training for inference acceleration?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0215",
+      "query": "How do I create a custom template for a model family that uses a different chat format?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0216",
+      "query": "Which models support training on NPU hardware using ms-swift?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0217",
+      "query": "What are the advantages of FP8 quantization over INT4 quantization methods like GPTQ and AWQ?",
+      "category": "quantization_export",
+      "subcategory": "fp8_comparison"
+    },
+    {
+      "id": "msswift_0218",
+      "query": "What is the command to evaluate a model using swift eval with the OpenCompass backend?",
+      "category": "cli_configuration",
+      "subcategory": "evaluation"
+    },
+    {
+      "id": "msswift_0219",
+      "query": "What is the LISA (Layerwise Importance Sampling for Memory Efficient Large Language Model Fine-Tuning) callback and how do I configure lisa_activated_layers?",
+      "category": "advanced_features",
+      "subcategory": "callbacks_hooks"
+    },
+    {
+      "id": "msswift_0220",
+      "query": "Can I use FP8 training with Megatron parallelism techniques?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0221",
+      "query": "Can I use Flash Attention 3 with all model families supported by ms-swift?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0222",
+      "query": "What are the advantages of GRPO over traditional PPO?",
+      "category": "training_methods",
+      "subcategory": "grpo_benefits"
+    },
+    {
+      "id": "msswift_0223",
+      "query": "What is the Muon optimizer and MuonClip optimizer, and when should I use them for large model training?",
+      "category": "advanced_features",
+      "subcategory": "optimizers"
+    },
+    {
+      "id": "msswift_0224",
+      "query": "How do I train a discriminative reward model with a value head using the RewardTrainer in ms-swift?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0225",
+      "query": "What is SAPO and when should I use it?",
+      "category": "training_methods",
+      "subcategory": "sapo_usage"
+    },
+    {
+      "id": "msswift_0226",
+      "query": "How can I handle dataset sampling when the requested count exceeds the total dataset size?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0227",
+      "query": "How can I use the performance logging callback to track training metrics and identify bottlenecks in my pipeline?",
+      "category": "advanced_features",
+      "subcategory": "callbacks_hooks"
+    },
+    {
+      "id": "msswift_0228",
+      "query": "What is the difference between GaLore and Q-Galore in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0229",
+      "query": "What is the difference between messages format and sharegpt format in ms-swift datasets?",
+      "category": "data_processing",
+      "subcategory": "built_in_formats"
+    },
+    {
+      "id": "msswift_0230",
+      "query": "How do I configure vllm_max_num_seqs to optimize throughput?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0231",
+      "query": "What is the process for converting a fine-tuned model to GGUF format for deployment?",
+      "category": "model_support",
+      "subcategory": "advanced_configurations"
+    },
+    {
+      "id": "msswift_0232",
+      "query": "What is the purpose of the strict parameter in dataset loading and when should I use it?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0233",
+      "query": "Can I run multiple training jobs simultaneously from the Web UI on different GPUs?",
+      "category": "cli_configuration",
+      "subcategory": "webui_multi_job"
+    },
+    {
+      "id": "msswift_0234",
+      "query": "Can I deploy LoRA adapters with SGLang backend?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0235",
+      "query": "What agent templates are available in ms-swift and how do I switch between them for different agent formats?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0236",
+      "query": "Can GaLore be combined with DeepSpeed ZeRO for maximum memory efficiency?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0237",
+      "query": "What are the required fields in TemplateMeta when registering a new dialogue template?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0238",
+      "query": "How can I load a local dataset file (jsonl, csv, json) without registering it in dataset_info.json?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0239",
+      "query": "How do I set sequence_parallel_size for training a model with 65K context length?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0240",
+      "query": "Can I train a 7B model with GaLore on a single 24GB GPU?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0241",
+      "query": "Can I use LoRA for pre-training or is it only for fine-tuning?",
+      "category": "training_methods",
+      "subcategory": "lora_applications"
+    },
+    {
+      "id": "msswift_0242",
+      "query": "How do I train a LoRA model using the swift sft command with a custom dataset?",
+      "category": "cli_configuration",
+      "subcategory": "sft_basic"
+    },
+    {
+      "id": "msswift_0243",
+      "query": "How do I combine multiple reward functions with different weights in GRPO using reward_funcs and reward_weights?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0244",
+      "query": "What is the LossScale mechanism and how do I create custom loss scaling strategies for different training scenarios?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0245",
+      "query": "What parameters should I use for QLoRA training with 4-bit quantization?",
+      "category": "cli_configuration",
+      "subcategory": "quantized_training"
+    },
+    {
+      "id": "msswift_0246",
+      "query": "Can I use DeepSpeed ZeRO2 and ZeRO3 on Ascend NPUs, and how does memory usage compare to GPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_deepspeed"
+    },
+    {
+      "id": "msswift_0247",
+      "query": "Can I use packing with streaming datasets to reduce memory usage?",
+      "category": "optimization_performance",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0248",
+      "query": "What is the difference between GPTQ and GPTQ v2, and when should I use gptqmodel versus auto_gptq?",
+      "category": "quantization_export",
+      "subcategory": "gptq_methods"
+    },
+    {
+      "id": "msswift_0249",
+      "query": "What environment variables control model and dataset download sources (ModelScope vs HuggingFace)?",
+      "category": "cli_configuration",
+      "subcategory": "env_download_source"
+    },
+    {
+      "id": "msswift_0250",
+      "query": "How much memory does QLoRA save compared to full parameter training?",
+      "category": "training_methods",
+      "subcategory": "qlora_benefits"
+    },
+    {
+      "id": "msswift_0251",
+      "query": "How can I fine-tune DeepSeek-V3 using Megatron parallelism techniques?",
+      "category": "model_support",
+      "subcategory": "deepseek_family"
+    },
+    {
+      "id": "msswift_0252",
+      "query": "How do I use vLLM acceleration with GRPO training?",
+      "category": "training_methods",
+      "subcategory": "grpo_acceleration"
+    },
+    {
+      "id": "msswift_0253",
+      "query": "How do I configure ms-swift to use agent templates like ReAct for tool calling during training?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0254",
+      "query": "How can I merge LoRA adapters back to the base model using the CLI?",
+      "category": "cli_configuration",
+      "subcategory": "model_export"
+    },
+    {
+      "id": "msswift_0255",
+      "query": "Can I use DFT with multimodal models in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "dft"
+    },
+    {
+      "id": "msswift_0256",
+      "query": "How can I enable sequence parallelism with Ulysses attention for long context training?",
+      "category": "hardware_distributed",
+      "subcategory": "distributed_parallelism"
+    },
+    {
+      "id": "msswift_0257",
+      "query": "What's the difference between A10, V100, and A100 GPUs for training performance?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_hardware_comparison"
+    },
+    {
+      "id": "msswift_0258",
+      "query": "How do I use DatasetLoader class directly for custom dataset loading logic?",
+      "category": "data_processing",
+      "subcategory": "custom_dataset_creation"
+    },
+    {
+      "id": "msswift_0259",
+      "query": "How do I create a custom optimizer plugin by extending OptimizerCallback in ms-swift?",
+      "category": "advanced_features",
+      "subcategory": "optimizers"
+    },
+    {
+      "id": "msswift_0260",
+      "query": "Can I resume FSDP training from a checkpoint, and what parameters do I need to keep consistent?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_fsdp"
+    },
+    {
+      "id": "msswift_0261",
+      "query": "How do I configure accelerate launch for FSDP training with custom configuration files?",
+      "category": "hardware_distributed",
+      "subcategory": "distributed_best_practices"
+    },
+    {
+      "id": "msswift_0262",
+      "query": "Why does AWQ quantization require device_map to be set to cpu and how does this affect memory usage?",
+      "category": "quantization_export",
+      "subcategory": "awq_configuration"
+    },
+    {
+      "id": "msswift_0263",
+      "query": "What is the MathAccuracy ORM and how do I use it for mathematical reasoning tasks with GRPO?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0264",
+      "query": "Can I use DeepSpeed ZeRO-3 with vLLM for GRPO training?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0265",
+      "query": "What environment variables are needed for distributed training with torchrun or accelerate?",
+      "category": "cli_configuration",
+      "subcategory": "env_distributed"
+    },
+    {
+      "id": "msswift_0266",
+      "query": "How do I enable FSDP with CPU offloading to reduce GPU memory usage during training?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_fsdp"
+    },
+    {
+      "id": "msswift_0267",
+      "query": "How do I fine-tune a base model to create a chat model?",
+      "category": "training_methods",
+      "subcategory": "base_to_chat"
+    },
+    {
+      "id": "msswift_0268",
+      "query": "How can I implement a custom agent template by extending BaseAgentTemplate for proprietary tool calling formats?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0269",
+      "query": "What is the stopping_strategy parameter and how does it affect interleaved datasets (first_exhausted vs all_exhausted)?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0270",
+      "query": "What are the steps to train a guard model like Qwen3-Guard for content moderation?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0271",
+      "query": "How do I change CUDA_VISIBLE_DEVICES to work with NPUs in training scripts?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_configuration"
+    },
+    {
+      "id": "msswift_0272",
+      "query": "How does DFT interact with other optimization techniques like gradient accumulation?",
+      "category": "optimization_performance",
+      "subcategory": "dft"
+    },
+    {
+      "id": "msswift_0273",
+      "query": "How do I use transformers backend for inference with batch processing?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0274",
+      "query": "How do I configure pretraining_tp settings for Llama models in ms-swift?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0275",
+      "query": "What are the performance implications of streaming vs batch inference?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0276",
+      "query": "What is GaLore optimizer and how do I configure it with galore_rank, galore_update_proj_gap, and other parameters?",
+      "category": "advanced_features",
+      "subcategory": "optimizers"
+    },
+    {
+      "id": "msswift_0277",
+      "query": "How do I deploy a model with OpenAI-compatible API using swift deploy?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0278",
+      "query": "What is the difference between Ulysses and Ring-Attention sequence parallelism?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0279",
+      "query": "How do I perform batch inference on multimodal models with transformers?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0280",
+      "query": "How can I create a custom dataset preprocessor by extending ResponsePreprocessor in ms-swift?",
+      "category": "data_processing",
+      "subcategory": "custom_dataset_creation"
+    },
+    {
+      "id": "msswift_0281",
+      "query": "How do I configure lmdeploy_vision_batch_size for multimodal models?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0282",
+      "query": "How can I create a custom generative reward model plugin (GenRM) that uses an LLM-as-judge approach in ms-swift?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0283",
+      "query": "How do I use LMDeploy backend for multimodal inference with InternVL models?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0284",
+      "query": "What are the memory requirements for training Qwen2-7B with LoRA on a single GPU without DeepSpeed?",
+      "category": "hardware_distributed",
+      "subcategory": "single_gpu_optimization"
+    },
+    {
+      "id": "msswift_0285",
+      "query": "What is DoRA and when should I use it instead of LoRA?",
+      "category": "training_methods",
+      "subcategory": "dora_usage"
+    },
+    {
+      "id": "msswift_0286",
+      "query": "How do I load a dataset from ModelScope with a specific subset using swift's load_dataset function?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0287",
+      "query": "What is the difference between vllm_max_model_len and vllm_gpu_memory_utilization?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0288",
+      "query": "How do I set up virtual pipeline parallelism to reduce pipeline bubbles?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0289",
+      "query": "How can I create a custom_dataset_info.json file and use it with the --custom_dataset_info parameter?",
+      "category": "data_processing",
+      "subcategory": "custom_dataset_creation"
+    },
+    {
+      "id": "msswift_0290",
+      "query": "Can I use DDP with device_map for training, or are they incompatible?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_ddp"
+    },
+    {
+      "id": "msswift_0291",
+      "query": "Is packing compatible with Flash Attention and DeepSpeed ZeRO for multimodal models?",
+      "category": "optimization_performance",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0292",
+      "query": "What automatic field name conversions does ms-swift perform for system, query, and response columns?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0293",
+      "query": "What streaming data loading options are available for large-scale pre-training?",
+      "category": "training_methods",
+      "subcategory": "pretraining_data_loading"
+    },
+    {
+      "id": "msswift_0294",
+      "query": "Can I use sequence parallel for GRPO training with long prompts?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0295",
+      "query": "What quantization methods are supported for QLoRA training in ms-swift?",
+      "category": "training_methods",
+      "subcategory": "qlora_quantization"
+    },
+    {
+      "id": "msswift_0296",
+      "query": "How do I use the --external_plugins argument to load custom model registrations?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0297",
+      "query": "Can I use LoRA for embedding and reranker training?",
+      "category": "training_methods",
+      "subcategory": "embedding_reranker_lora"
+    },
+    {
+      "id": "msswift_0298",
+      "query": "What is the ReactCompatMixin and how do I parse Action/Action Input/Observation sequences during agent training?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0299",
+      "query": "What is ORPO and how does it combine SFT with preference optimization?",
+      "category": "training_methods",
+      "subcategory": "orpo_concept"
+    },
+    {
+      "id": "msswift_0300",
+      "query": "What patches does ms-swift apply to enable training on quantized models like GPTQ and AWQ?",
+      "category": "model_support",
+      "subcategory": "model_architecture_patches"
+    },
+    {
+      "id": "msswift_0301",
+      "query": "What are the required and optional keys in ms-swift's standard dataset format?",
+      "category": "data_processing",
+      "subcategory": "built_in_formats"
+    },
+    {
+      "id": "msswift_0302",
+      "query": "How do I load multiple datasets and concatenate them using load_dataset?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0303",
+      "query": "How do I quantize a model using GPTQ with 4-bit precision and what datasets should I use for calibration?",
+      "category": "quantization_export",
+      "subcategory": "gptq_basic"
+    },
+    {
+      "id": "msswift_0304",
+      "query": "What is the optimal tensor_model_parallel_size for training a 14B model on 8 GPUs?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0305",
+      "query": "What parameters do I need to set for gradient checkpointing on DDP training?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_ddp"
+    },
+    {
+      "id": "msswift_0306",
+      "query": "How do I use CELOSS_PARALLEL_SIZE with sequence parallelism?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0307",
+      "query": "How do I evaluate a sequence classification model after training?",
+      "category": "training_methods",
+      "subcategory": "seq_cls_evaluation"
+    },
+    {
+      "id": "msswift_0308",
+      "query": "What is the recommended way to freeze the vision encoder during multimodal fine-tuning?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0309",
+      "query": "What transformers version is required for training Qwen3-VL models?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0310",
+      "query": "What is the performance impact of using DeepSpeed ZeRO-3 versus ZeRO-2?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0311",
+      "query": "How does ds3_gather_for_generation affect training speed in ZeRO-3?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0312",
+      "query": "How do I prepare a custom multimodal dataset with images and text for LLaVA models?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0313",
+      "query": "What is the alpaca format and how does it combine instruction and input fields into a query?",
+      "category": "data_processing",
+      "subcategory": "built_in_formats"
+    },
+    {
+      "id": "msswift_0314",
+      "query": "What is the default template type for Llama3 models and how does it differ from Llama2?",
+      "category": "model_support",
+      "subcategory": "llama_family"
+    },
+    {
+      "id": "msswift_0315",
+      "query": "After AWQ quantization, can I continue training with QLoRA for fine-tuning?",
+      "category": "quantization_export",
+      "subcategory": "awq_usage"
+    },
+    {
+      "id": "msswift_0316",
+      "query": "How do I fine-tune a Qwen2.5-7B-Instruct model using LoRA with ms-swift?",
+      "category": "model_support",
+      "subcategory": "qwen_family"
+    },
+    {
+      "id": "msswift_0317",
+      "query": "Can I export multimodal models to Ollama format or is it limited to text-only models?",
+      "category": "quantization_export",
+      "subcategory": "ollama_limitations"
+    },
+    {
+      "id": "msswift_0318",
+      "query": "How do I decide between full-parameter and PEFT based on my use case?",
+      "category": "training_methods",
+      "subcategory": "training_method_selection"
+    },
+    {
+      "id": "msswift_0319",
+      "query": "Can LMDeploy handle LoRA adapters during inference?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0320",
+      "query": "How do I accelerate GKD training with vLLM for student sampling?",
+      "category": "training_methods",
+      "subcategory": "gkd_acceleration"
+    },
+    {
+      "id": "msswift_0321",
+      "query": "What does --infer_backend control and what are the differences between vllm, lmdeploy, and sglang?",
+      "category": "cli_configuration",
+      "subcategory": "argument_inference_backend"
+    },
+    {
+      "id": "msswift_0322",
+      "query": "How fast is BNB quantization compared to GPTQ and AWQ, and what are the quality trade-offs?",
+      "category": "quantization_export",
+      "subcategory": "bnb_performance"
+    },
+    {
+      "id": "msswift_0323",
+      "query": "Can I export both quantized and non-quantized models to Ollama format using swift export?",
+      "category": "quantization_export",
+      "subcategory": "ollama_usage"
+    },
+    {
+      "id": "msswift_0324",
+      "query": "How do I perform BNB 4-bit quantization with nf4 quantization type?",
+      "category": "quantization_export",
+      "subcategory": "bnb_basic"
+    },
+    {
+      "id": "msswift_0325",
+      "query": "How do I create a template for thinking models like QwQ or DeepSeek-R1?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0326",
+      "query": "What is the syntax for using CUDA_VISIBLE_DEVICES with NPROC_PER_NODE for multi-GPU training?",
+      "category": "cli_configuration",
+      "subcategory": "multi_gpu"
+    },
+    {
+      "id": "msswift_0327",
+      "query": "How do I enable Top-K mode for GKD to reduce memory usage?",
+      "category": "training_methods",
+      "subcategory": "gkd_topk"
+    },
+    {
+      "id": "msswift_0328",
+      "query": "What is the difference between generative and discriminative rerankers?",
+      "category": "training_methods",
+      "subcategory": "reranker_types"
+    },
+    {
+      "id": "msswift_0329",
+      "query": "When should I use full-parameter training instead of parameter-efficient methods?",
+      "category": "training_methods",
+      "subcategory": "full_parameter_use_cases"
+    },
+    {
+      "id": "msswift_0330",
+      "query": "How do I compare training performance between Qwen2-7B and Llama3-8B on the same dataset?",
+      "category": "model_support",
+      "subcategory": "model_comparison"
+    },
+    {
+      "id": "msswift_0331",
+      "query": "What is the purpose of the SubsetDataset class and how do I use it when registering datasets?",
+      "category": "data_processing",
+      "subcategory": "custom_dataset_creation"
+    },
+    {
+      "id": "msswift_0332",
+      "query": "What is the difference between tuner_type full and lora?",
+      "category": "training_methods",
+      "subcategory": "tuner_types"
+    },
+    {
+      "id": "msswift_0333",
+      "query": "What is the difference between pushing to ModelScope versus HuggingFace, and how do I switch between them?",
+      "category": "quantization_export",
+      "subcategory": "hub_push_configuration"
+    },
+    {
+      "id": "msswift_0334",
+      "query": "Can I mix full-parameter training for some layers and LoRA for others?",
+      "category": "training_methods",
+      "subcategory": "hybrid_training"
+    },
+    {
+      "id": "msswift_0335",
+      "query": "Can I deploy multiple LoRA adapters and switch between them via API calls?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0336",
+      "query": "How do I use ConfigLossScale with JSON configuration files to define token-level loss weights?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0337",
+      "query": "What template should I use for Qwen2-MoE models and how do I configure the mixture-of-experts parameters?",
+      "category": "model_support",
+      "subcategory": "qwen_family"
+    },
+    {
+      "id": "msswift_0338",
+      "query": "How do I use the HermesLossScale and AlphaUmiLossScale for specialized agent training configurations?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0339",
+      "query": "What is the process for training DeepSeek-Janus-Pro for text-to-image generation?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0340",
+      "query": "What's the difference between using device_map and DDP + device_map for model parallelism?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_ddp"
+    },
+    {
+      "id": "msswift_0341",
+      "query": "What is the difference between using swift export with --quant_method awq vs gptq?",
+      "category": "cli_configuration",
+      "subcategory": "quantization"
+    },
+    {
+      "id": "msswift_0342",
+      "query": "How can I train a model on CPU instead of GPU for testing purposes?",
+      "category": "hardware_distributed",
+      "subcategory": "cpu_training"
+    },
+    {
+      "id": "msswift_0343",
+      "query": "What parameters should I adjust when I encounter OOM errors using vLLM inference?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0344",
+      "query": "What are common causes of OOM errors when training large multimodal models?",
+      "category": "model_support",
+      "subcategory": "troubleshooting"
+    },
+    {
+      "id": "msswift_0345",
+      "query": "What is the purpose of the columns parameter in dataset configuration and how does column mapping work?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0346",
+      "query": "Can I use GPTQ quantization on multimodal models and what additional parameters do I need to set?",
+      "category": "quantization_export",
+      "subcategory": "gptq_multimodal"
+    },
+    {
+      "id": "msswift_0347",
+      "query": "Can I use ms-swift to train GOT-OCR2 models for document parsing?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0348",
+      "query": "How do I specify model_kwargs for multimodal models in a YAML configuration?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_multimodal"
+    },
+    {
+      "id": "msswift_0349",
+      "query": "How do I troubleshoot 'model_type not found' errors when loading custom models?",
+      "category": "model_support",
+      "subcategory": "troubleshooting"
+    },
+    {
+      "id": "msswift_0350",
+      "query": "Can I use device_map for model parallelism with transformers inference?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0351",
+      "query": "Can I use QLoRA with vLLM for inference acceleration?",
+      "category": "training_methods",
+      "subcategory": "qlora_limitations"
+    },
+    {
+      "id": "msswift_0352",
+      "query": "How do I handle streaming responses in Python when using InferEngine?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0353",
+      "query": "How does context parallelism differ from sequence parallelism in Megatron-SWIFT?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0354",
+      "query": "How do I train a multimodal reranker model?",
+      "category": "training_methods",
+      "subcategory": "multimodal_reranker"
+    },
+    {
+      "id": "msswift_0355",
+      "query": "What is the P2P topology of Ascend NPUs and how does HCCS interconnect work?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_architecture"
+    },
+    {
+      "id": "msswift_0356",
+      "query": "How do I debug slow multi-node training when using DeepSpeed ZeRO3?",
+      "category": "hardware_distributed",
+      "subcategory": "distributed_troubleshooting"
+    },
+    {
+      "id": "msswift_0357",
+      "query": "Can sequence parallelism be used with multimodal models in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0358",
+      "query": "How do I configure sequence parallel for DPO training with long sequences?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0359",
+      "query": "What is the purpose of load_from_cache_file parameter and how does dataset caching work in ms-swift?",
+      "category": "data_processing",
+      "subcategory": "data_caching"
+    },
+    {
+      "id": "msswift_0360",
+      "query": "What are the memory requirements for full-parameter fine-tuning of a 7B model?",
+      "category": "training_methods",
+      "subcategory": "full_parameter_memory"
+    },
+    {
+      "id": "msswift_0361",
+      "query": "What is the difference between TP, PP, CP, EP, and VPP in Megatron-SWIFT?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0362",
+      "query": "How do I enable GaLore for memory-efficient full parameter training?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0363",
+      "query": "How do I implement GSPO for group-based preference learning?",
+      "category": "training_methods",
+      "subcategory": "gspo_implementation"
+    },
+    {
+      "id": "msswift_0364",
+      "query": "How do I set vllm_enforce_eager and when should I use it?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0365",
+      "query": "How do I specify ignore_patterns when registering a model to skip certain files during download?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0366",
+      "query": "Can vLLM handle quantized models like GPTQ and AWQ?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0367",
+      "query": "What's the recommended number of dataloader workers for multi-GPU training on high-performance GPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "distributed_best_practices"
+    },
+    {
+      "id": "msswift_0368",
+      "query": "How can I install and configure the NPU environment for training on Ascend 910B3 chips?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_setup"
+    },
+    {
+      "id": "msswift_0369",
+      "query": "How do I enable streaming mode for large datasets and what are its limitations?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0370",
+      "query": "How long does GPTQ quantization take for a 70B parameter model and can I speed it up?",
+      "category": "quantization_export",
+      "subcategory": "gptq_performance"
+    },
+    {
+      "id": "msswift_0371",
+      "query": "How does Adapter tuning compare to LoRA in terms of performance?",
+      "category": "training_methods",
+      "subcategory": "adapter_vs_lora"
+    },
+    {
+      "id": "msswift_0372",
+      "query": "Can I visualize DPO training metrics like margin and logps in the Web UI?",
+      "category": "cli_configuration",
+      "subcategory": "webui_rlhf_metrics"
+    },
+    {
+      "id": "msswift_0373",
+      "query": "What parallel techniques does LMDeploy support compared to vLLM?",
+      "category": "inference_deployment",
+      "subcategory": "lmdeploy_integration"
+    },
+    {
+      "id": "msswift_0374",
+      "query": "Can I adjust the group_size parameter in GPTQ quantization and what impact does it have on model quality?",
+      "category": "quantization_export",
+      "subcategory": "gptq_configuration"
+    },
+    {
+      "id": "msswift_0375",
+      "query": "What's the optimal gradient_accumulation_steps setting for 4-GPU DDP training with batch size 1?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_ddp"
+    },
+    {
+      "id": "msswift_0376",
+      "query": "How do I configure temperature and max_tokens for streaming inference?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0377",
+      "query": "How can I train an agent model using GRPO with the ReactORM reward function for tool calling accuracy?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0378",
+      "query": "Can I use GaLore with LoRA for even lower memory usage?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0379",
+      "query": "What is the memory reduction when using sequence parallel with 512K context length?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0380",
+      "query": "How do I fix the 'RuntimeError: Expected to mark a variable ready only once' error during DDP training?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_troubleshooting"
+    },
+    {
+      "id": "msswift_0381",
+      "query": "How much faster is training with packing for Qwen2.5-VL compared to without?",
+      "category": "optimization_performance",
+      "subcategory": "multimodal_packing"
+    },
+    {
+      "id": "msswift_0382",
+      "query": "What models are supported by SGLang backend in ms-swift?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0383",
+      "query": "How can I push my trained model to ModelScope hub using the swift export command?",
+      "category": "cli_configuration",
+      "subcategory": "model_publishing"
+    },
+    {
+      "id": "msswift_0384",
+      "query": "How do I verify model compatibility before starting a training run?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0385",
+      "query": "What are the four dataset formats that AutoPreprocessor can automatically convert to ms-swift standard format?",
+      "category": "data_processing",
+      "subcategory": "built_in_formats"
+    },
+    {
+      "id": "msswift_0386",
+      "query": "What is loss_scale and how does it affect pre-training vs SFT?",
+      "category": "training_methods",
+      "subcategory": "loss_configuration"
+    },
+    {
+      "id": "msswift_0387",
+      "query": "Can I use streaming inference with all backends (vLLM, LMDeploy, SGLang)?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0388",
+      "query": "What is the difference between MessagesPreprocessor, AlpacaPreprocessor, and ResponsePreprocessor?",
+      "category": "data_processing",
+      "subcategory": "preprocessing"
+    },
+    {
+      "id": "msswift_0389",
+      "query": "How do I implement mixed preference optimization (MPO) by specifying multiple loss_type values with loss_weights in DPO?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0390",
+      "query": "How do I implement GRPO training for math reasoning tasks?",
+      "category": "training_methods",
+      "subcategory": "grpo_implementation"
+    },
+    {
+      "id": "msswift_0391",
+      "query": "How can I register custom loss functions using the loss_map and apply them with the --loss_type argument?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0392",
+      "query": "How does Flash Attention interact with gradient checkpointing in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0393",
+      "query": "What is the syntax for sampling a specific number of rows from a dataset using the # notation?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0394",
+      "query": "How do I deploy multiple LoRA adapters with vLLM backend?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0395",
+      "query": "What are the pros and cons of using DeepSeek-VL2 versus LLaVA-OneVision for vision tasks?",
+      "category": "model_support",
+      "subcategory": "model_comparison"
+    },
+    {
+      "id": "msswift_0396",
+      "query": "How do I train multiple LoRA adapters simultaneously?",
+      "category": "training_methods",
+      "subcategory": "lora_advanced"
+    },
+    {
+      "id": "msswift_0397",
+      "query": "Why doesn't BNB support multimodal model quantization according to the documentation?",
+      "category": "quantization_export",
+      "subcategory": "bnb_limitations"
+    },
+    {
+      "id": "msswift_0398",
+      "query": "Does transformers backend support QLoRA models for inference?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0399",
+      "query": "How much memory does GaLore save compared to standard full parameter training?",
+      "category": "optimization_performance",
+      "subcategory": "galore"
+    },
+    {
+      "id": "msswift_0400",
+      "query": "What is the split_dataset_ratio parameter and how do I use it to create validation splits?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0401",
+      "query": "What are the performance characteristics of SGLang compared to vLLM?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0402",
+      "query": "How do I configure LoRA+ optimization with the LorapOptimizerCallback for improved convergence?",
+      "category": "advanced_features",
+      "subcategory": "optimizers"
+    },
+    {
+      "id": "msswift_0403",
+      "query": "How do I train an embedding model using ms-swift?",
+      "category": "training_methods",
+      "subcategory": "embedding_training"
+    },
+    {
+      "id": "msswift_0404",
+      "query": "How do I set up sequence classification training for models like BERT or Modern-BERT?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0405",
+      "query": "What's the difference between using DeepSpeed ZeRO2 and ZeRO3 for training on 8 GPUs in terms of memory usage and speed?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_deepspeed"
+    },
+    {
+      "id": "msswift_0406",
+      "query": "What is the purpose of ModelGroup and how do I use it when registering models from different sources?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0407",
+      "query": "How do I set up DDP training across 4 GPUs for a Qwen2.5-7B model with LoRA?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_gpu_ddp"
+    },
+    {
+      "id": "msswift_0408",
+      "query": "What is channel loss (enable_channel_loss) and how does it improve multimodal model training?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0409",
+      "query": "What are the best practices for training vision-language models with video inputs using ms-swift?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0410",
+      "query": "What are the special considerations for training DeepSeek-R1 reasoning models?",
+      "category": "model_support",
+      "subcategory": "deepseek_family"
+    },
+    {
+      "id": "msswift_0411",
+      "query": "How do I balance pre-training objectives with instruction-following in SFT?",
+      "category": "training_methods",
+      "subcategory": "training_objectives"
+    },
+    {
+      "id": "msswift_0412",
+      "query": "How do I use seq_kd for sequential knowledge distillation?",
+      "category": "training_methods",
+      "subcategory": "gkd_seq_kd"
+    },
+    {
+      "id": "msswift_0413",
+      "query": "What are the communication overheads of sequence parallel with Ring-Attention?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0414",
+      "query": "How do I specify multiple subsets when loading a dataset, for example using 'dataset_id:subset1/subset2' syntax?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0415",
+      "query": "What is the purpose of hub_token parameter for loading private datasets from hubs?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0416",
+      "query": "How do MoE models like Qwen2-MoE and Mixtral differ in their training configuration in ms-swift?",
+      "category": "model_support",
+      "subcategory": "model_comparison"
+    },
+    {
+      "id": "msswift_0417",
+      "query": "How can I register a model with custom architecture that requires special loading logic?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0418",
+      "query": "What is the template_cls parameter and when should I customize it for multimodal models?",
+      "category": "model_support",
+      "subcategory": "template_system"
+    },
+    {
+      "id": "msswift_0419",
+      "query": "Should I enable flash attention when training on A100 GPUs, and how much does it speed up training?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_a100"
+    },
+    {
+      "id": "msswift_0420",
+      "query": "How do I merge LoRA weights back into the base model?",
+      "category": "training_methods",
+      "subcategory": "lora_deployment"
+    },
+    {
+      "id": "msswift_0421",
+      "query": "What are the advantages of using vLLM over transformers for inference?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0422",
+      "query": "How can I debug issues with multimodal data loading in vision-language models?",
+      "category": "model_support",
+      "subcategory": "troubleshooting"
+    },
+    {
+      "id": "msswift_0423",
+      "query": "What is the difference between ModelLoader and custom loader classes when registering models?",
+      "category": "model_support",
+      "subcategory": "custom_model_registration"
+    },
+    {
+      "id": "msswift_0424",
+      "query": "How do I set attn_impl to flash_attn for better GPU utilization?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0425",
+      "query": "Can I save logprobs during streaming inference?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0426",
+      "query": "How do I use transformers backend for inference with quantized BNB models?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0427",
+      "query": "What is the activation CPU offload callback and how does it help reduce GPU memory usage during training?",
+      "category": "advanced_features",
+      "subcategory": "callbacks_hooks"
+    },
+    {
+      "id": "msswift_0428",
+      "query": "What template information is included in the Ollama Modelfile and how do I customize it?",
+      "category": "quantization_export",
+      "subcategory": "ollama_configuration"
+    },
+    {
+      "id": "msswift_0429",
+      "query": "How do I train GLM4V multimodal models for vision-language tasks?",
+      "category": "model_support",
+      "subcategory": "glm_family"
+    },
+    {
+      "id": "msswift_0430",
+      "query": "What is the recommended parallelism strategy for training a 30B MoE model?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0431",
+      "query": "How do I create a YAML configuration file for SFT training instead of using command-line arguments?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_config"
+    },
+    {
+      "id": "msswift_0432",
+      "query": "Can I use ms-swift to fine-tune Mistral-2501 models with custom instruction datasets?",
+      "category": "model_support",
+      "subcategory": "mistral_family"
+    },
+    {
+      "id": "msswift_0433",
+      "query": "What is the CosineReward ORM and how does it help with length-aware reward shaping in reinforcement learning?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0434",
+      "query": "What are the key differences in template requirements between GLM4 and InternLM3 models?",
+      "category": "model_support",
+      "subcategory": "model_comparison"
+    },
+    {
+      "id": "msswift_0435",
+      "query": "What is the difference between using --adapters and --merge_lora for inference?",
+      "category": "inference_deployment",
+      "subcategory": "adapter_management"
+    },
+    {
+      "id": "msswift_0436",
+      "query": "What is Dynamic Fine-Tuning (DFT) loss and how do I enable it with --enable_dft_loss during training?",
+      "category": "advanced_features",
+      "subcategory": "custom_loss"
+    },
+    {
+      "id": "msswift_0437",
+      "query": "How do I perform FP8 quantization on a Qwen2.5-3B model and does it require calibration data?",
+      "category": "quantization_export",
+      "subcategory": "fp8_basic"
+    },
+    {
+      "id": "msswift_0438",
+      "query": "Can I train a model like MiniCPM-V-4 for OCR tasks using ms-swift?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0439",
+      "query": "How do I enable tensor parallelism with vLLM for multi-GPU inference?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0440",
+      "query": "What is the difference between Flash Attention 2 and Flash Attention 3 in terms of performance and memory usage?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0441",
+      "query": "How does --packing work and what performance benefits does it provide?",
+      "category": "cli_configuration",
+      "subcategory": "argument_packing"
+    },
+    {
+      "id": "msswift_0442",
+      "query": "What is the served_model_name parameter in deployment?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0443",
+      "query": "Can I enable Flash Attention with transformers backend for faster inference?",
+      "category": "inference_deployment",
+      "subcategory": "transformers_engine"
+    },
+    {
+      "id": "msswift_0444",
+      "query": "How does tensor parallelism in Megatron help accelerate training on multiple A100 GPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_a100"
+    },
+    {
+      "id": "msswift_0445",
+      "query": "How do I configure multi-node training settings in a YAML file with Ray or torchrun?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_multi_node"
+    },
+    {
+      "id": "msswift_0446",
+      "query": "How do I convert HF weights to Megatron format for training?",
+      "category": "optimization_performance",
+      "subcategory": "megatron_parallelism"
+    },
+    {
+      "id": "msswift_0447",
+      "query": "Can I use vLLM with multimodal models and how do I configure the image/video limits?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0448",
+      "query": "How do I create a private model repository when pushing to ModelScope hub?",
+      "category": "quantization_export",
+      "subcategory": "hub_push_configuration"
+    },
+    {
+      "id": "msswift_0449",
+      "query": "How can I use DatasetSyntax.parse to parse complex dataset specifications from command line?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0450",
+      "query": "Is sequence parallel compatible with padding_free training?",
+      "category": "optimization_performance",
+      "subcategory": "sequence_parallel"
+    },
+    {
+      "id": "msswift_0451",
+      "query": "What is the memory savings when using DeepSpeed ZeRO-3 compared to ZeRO-2?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0452",
+      "query": "How do I enable ZeRO++ with zero_hpz_partition_size for better multi-node performance?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0453",
+      "query": "Should I use bfloat16 or float16 for training on H100 GPUs?",
+      "category": "hardware_distributed",
+      "subcategory": "gpu_optimization_h100"
+    },
+    {
+      "id": "msswift_0454",
+      "query": "What is the purpose of PYTORCH_CUDA_ALLOC_CONF environment variable in training scripts?",
+      "category": "cli_configuration",
+      "subcategory": "env_memory_management"
+    },
+    {
+      "id": "msswift_0455",
+      "query": "What permissions do I need for my SDK token to push models to ModelScope and where do I find the token?",
+      "category": "quantization_export",
+      "subcategory": "hub_push_configuration"
+    },
+    {
+      "id": "msswift_0456",
+      "query": "Can I use reward model training for sequence classification tasks?",
+      "category": "training_methods",
+      "subcategory": "seq_cls_reward"
+    },
+    {
+      "id": "msswift_0457",
+      "query": "How can I use the RepetitionPenalty and SoftOverlong ORMs together to control generation quality in GRPO?",
+      "category": "advanced_features",
+      "subcategory": "reward_models_orm"
+    },
+    {
+      "id": "msswift_0458",
+      "query": "How do I configure the number of labels for sequence classification?",
+      "category": "training_methods",
+      "subcategory": "seq_cls_configuration"
+    },
+    {
+      "id": "msswift_0459",
+      "query": "How do --learning_rate, --warmup_ratio, and --num_train_epochs work together in training?",
+      "category": "cli_configuration",
+      "subcategory": "argument_training_schedule"
+    },
+    {
+      "id": "msswift_0460",
+      "query": "Can I train models for long-form content generation like LongWriter-Llama?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0461",
+      "query": "What is the recommended Flash Attention version for H20 GPUs in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0462",
+      "query": "What is the beta parameter in DPO and how should I set it?",
+      "category": "training_methods",
+      "subcategory": "dpo_parameters"
+    },
+    {
+      "id": "msswift_0463",
+      "query": "What metrics does InferStats provide for tracking inference performance?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0464",
+      "query": "What happens when I exceed the max_loras limit during inference?",
+      "category": "inference_deployment",
+      "subcategory": "adapter_management"
+    },
+    {
+      "id": "msswift_0465",
+      "query": "How do I use agent loss scaling with AgentFlanLossScale to train models on tool calling tasks?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0466",
+      "query": "Can I use BNB-quantized models for continued training with QLoRA?",
+      "category": "quantization_export",
+      "subcategory": "bnb_usage"
+    },
+    {
+      "id": "msswift_0467",
+      "query": "How can I train a Llama3.2-Vision model for visual question answering tasks?",
+      "category": "model_support",
+      "subcategory": "llama_family"
+    },
+    {
+      "id": "msswift_0468",
+      "query": "What are the requirements for training Gemma3-Vision models with ms-swift?",
+      "category": "model_support",
+      "subcategory": "multimodal_training"
+    },
+    {
+      "id": "msswift_0469",
+      "query": "How do I troubleshoot vLLM CUDA out of memory errors during deployment?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0470",
+      "query": "What is the bnb_4bit_compute_dtype parameter and should I set it to float16 or bfloat16?",
+      "category": "quantization_export",
+      "subcategory": "bnb_configuration"
+    },
+    {
+      "id": "msswift_0471",
+      "query": "How do I train a sequence classification model for sentiment analysis?",
+      "category": "training_methods",
+      "subcategory": "seq_cls_training"
+    },
+    {
+      "id": "msswift_0472",
+      "query": "What is the difference between REACTLossScale and QwenLossScale for agent training, and when should I use each?",
+      "category": "advanced_features",
+      "subcategory": "agent_training"
+    },
+    {
+      "id": "msswift_0473",
+      "query": "After exporting to Ollama format, what commands do I use to create and run the model?",
+      "category": "quantization_export",
+      "subcategory": "ollama_deployment"
+    },
+    {
+      "id": "msswift_0474",
+      "query": "What are the arguments for deploying a model with vLLM backend using swift deploy?",
+      "category": "cli_configuration",
+      "subcategory": "deployment"
+    },
+    {
+      "id": "msswift_0475",
+      "query": "After GPTQ quantization, can I use vllm or lmdeploy for inference acceleration?",
+      "category": "quantization_export",
+      "subcategory": "gptq_deployment"
+    },
+    {
+      "id": "msswift_0476",
+      "query": "How do I use --model_kwargs to pass model-specific parameters like fps_max_frames?",
+      "category": "cli_configuration",
+      "subcategory": "argument_model_kwargs"
+    },
+    {
+      "id": "msswift_0477",
+      "query": "How do I configure SimPO training with the gamma parameter?",
+      "category": "training_methods",
+      "subcategory": "simpo_configuration"
+    },
+    {
+      "id": "msswift_0478",
+      "query": "What is MindSpeed (Megatron-LM) and how do I install it for NPU training?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_megatron"
+    },
+    {
+      "id": "msswift_0479",
+      "query": "How do I handle NaN values during NPU fine-tuning by setting torch_dtype to float32?",
+      "category": "hardware_distributed",
+      "subcategory": "npu_troubleshooting"
+    },
+    {
+      "id": "msswift_0480",
+      "query": "How can I fine-tune GLM4-9B-Chat using the appropriate template in ms-swift?",
+      "category": "model_support",
+      "subcategory": "glm_family"
+    },
+    {
+      "id": "msswift_0481",
+      "query": "What is the difference between Mixtral and Mistral models in terms of architecture support in ms-swift?",
+      "category": "model_support",
+      "subcategory": "mistral_family"
+    },
+    {
+      "id": "msswift_0482",
+      "query": "What is the download_mode parameter and when should I use force_redownload vs reuse_dataset_if_exists?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0483",
+      "query": "How do I use SGLang backend for inference with Qwen models?",
+      "category": "inference_deployment",
+      "subcategory": "sglang_integration"
+    },
+    {
+      "id": "msswift_0484",
+      "query": "How can I use the interleave_prob parameter to interleave multiple datasets with specific probabilities?",
+      "category": "data_processing",
+      "subcategory": "dataset_loading"
+    },
+    {
+      "id": "msswift_0485",
+      "query": "How does the get_device function automatically detect whether to use NPU, MPS, CUDA, or CPU?",
+      "category": "hardware_distributed",
+      "subcategory": "device_detection"
+    },
+    {
+      "id": "msswift_0486",
+      "query": "How do I launch multi-node training using swift, torchrun, or deepspeed across different machines?",
+      "category": "hardware_distributed",
+      "subcategory": "multi_node_training"
+    },
+    {
+      "id": "msswift_0487",
+      "query": "What models support training with AQLM quantization in ms-swift?",
+      "category": "model_support",
+      "subcategory": "compatibility"
+    },
+    {
+      "id": "msswift_0488",
+      "query": "Is Flash Attention compatible with all model architectures supported by ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0489",
+      "query": "Does Flash Attention reduce memory usage during training, and by how much?",
+      "category": "optimization_performance",
+      "subcategory": "flash_attention"
+    },
+    {
+      "id": "msswift_0490",
+      "query": "What fields are required in a YAML config file for training with DeepSpeed ZeRO-3?",
+      "category": "cli_configuration",
+      "subcategory": "yaml_deepspeed"
+    },
+    {
+      "id": "msswift_0491",
+      "query": "What is the difference between stream=True and stream=False for inference?",
+      "category": "inference_deployment",
+      "subcategory": "streaming_inference"
+    },
+    {
+      "id": "msswift_0492",
+      "query": "Can I deploy multiple models on different ports with OpenAI API?",
+      "category": "inference_deployment",
+      "subcategory": "openai_api"
+    },
+    {
+      "id": "msswift_0493",
+      "query": "How do I train only the vision encoder with full parameters while using LoRA for the LLM?",
+      "category": "training_methods",
+      "subcategory": "multimodal_mixed_training"
+    },
+    {
+      "id": "msswift_0494",
+      "query": "How do I export a quantized model to Ollama format and create a Modelfile?",
+      "category": "quantization_export",
+      "subcategory": "ollama_basic"
+    },
+    {
+      "id": "msswift_0495",
+      "query": "What happens to running jobs if I close the Web UI? How can I resume or kill them?",
+      "category": "cli_configuration",
+      "subcategory": "webui_job_management"
+    },
+    {
+      "id": "msswift_0496",
+      "query": "What is the difference between deepspeed zero3 and FSDP in ms-swift?",
+      "category": "optimization_performance",
+      "subcategory": "deepspeed_zero"
+    },
+    {
+      "id": "msswift_0497",
+      "query": "What is the maximum number of LoRAs I can load simultaneously with vLLM?",
+      "category": "inference_deployment",
+      "subcategory": "vllm_backend"
+    },
+    {
+      "id": "msswift_0498",
+      "query": "How can I train embedding models like Qwen3-Emb or BGE-Reranker with ms-swift?",
+      "category": "model_support",
+      "subcategory": "specialized_tasks"
+    },
+    {
+      "id": "msswift_0499",
+      "query": "How do I prepare training data for embedding models?",
+      "category": "training_methods",
+      "subcategory": "embedding_data_prep"
+    },
+    {
+      "id": "msswift_0500",
+      "query": "What is the difference between forward KL and reverse KL in GKD?",
+      "category": "training_methods",
+      "subcategory": "gkd_divergence_types"
+    }
+  ]
+}
