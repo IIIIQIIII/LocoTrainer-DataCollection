@@ -8,6 +8,10 @@ import json
 import os
 import sys
 import time
+
+# Disable Git interactive authentication prompts (prevents hanging on git commands)
+os.environ["GIT_TERMINAL_PROMPT"] = "0"
+os.environ["GIT_ASKPASS"] = "echo"
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
