@@ -69,8 +69,10 @@ uv pip install transformers==5.2.0
 # Verify installation
 echo ""
 echo "✅ Verifying installation..."
-python -c "import vllm; print(f'vLLM version: {vllm.__version__}')"
-python -c "from locotrainer import Agent, Config; print('LocoTrainer imported successfully')"
+python -c "import vllm; print(f'✓ vLLM version: {vllm.__version__}')"
+python -c "import transformers; print(f'✓ transformers version: {transformers.__version__}')"
+python -c "from locotrainer import Agent, Config; print('✓ LocoTrainer imported successfully')"
+python -c "import locotrainer; print(f'✓ LocoTrainer version: {locotrainer.__version__}')"
 
 # Download LocoTrainer-4B model (optional pre-download)
 echo ""
